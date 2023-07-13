@@ -3,6 +3,9 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    --primary: rgb(19,19,19);
+    --secondary: rgba(255, 255, 255, 0.348);
+    --tertiary: rgb(89, 175, 255);
     background-color: #fff;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -16,6 +19,10 @@
     html,body, #app {
     margin: 0;
     min-height: 100vh;
+    }
+    a {
+    text-decoration: none;
+    color: var(--tertiary);
     }
     .block {
     background-color: #242424;
@@ -37,3 +44,19 @@
     padding: 0.5rem;
     font-size: 1rem;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+.manueljimena {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+  }
